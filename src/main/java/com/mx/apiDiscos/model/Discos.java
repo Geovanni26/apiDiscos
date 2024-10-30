@@ -6,6 +6,15 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 
+/*
+ * tabla que se ocupo:
+ CREATE TABLE DISCOS(
+ID NUMBER PRIMARY KEY,
+NOMBRE_DISCO VARCHAR2(80) NOT NULL,
+GENERO VARCHAR2(80) NOT NULL,
+PRECIO FLOAT NOT NULL
+);
+ * */
 @Entity
 @Table(name="DISCOS")
 public class Discos {
